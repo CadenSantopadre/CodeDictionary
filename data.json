@@ -1,9 +1,21 @@
 {
-    "Programming Python": {
-        "Looping Structure": "for item in list:\n    print(item)",
-        "List Comprehension": "[x for x in items if x > 0]"
+    "Basic Python": {
+        "Casting": "To cast, you enclose the value in parenthesis with the type leading. \n int i=5\nfloat(i)",
+        "Logic Operators": "Logic operators are 'and', 'or', 'not','is' instead of .equals() \n self explanatory",
+        "Comments": "Use a hashtag to start a single line comment. \n # This is a comment",
+        "Variables": "No strict typing needed, just use an equals sign to assign a value. \n x = 10 \n name = 'Alice'"
     },
-    "Web Development": {
-        "Fetch API": "fetch(url)\n  .then(res => res.json())\n  .then(data => console.log(data));"
+    "PyQt": {
+        "Layout": "import sys\nfrom PyQt6.QtWidgets import QApplication, QWidget\n\nclass MainWindow(QWidget):\n    def __init__(self):\n        super().__init__()\nlayouts, widgets, instance variables go here,\n\nif __name__ == \"__main__\":\n    app = QApplication(sys.argv)\n    window = MainWindow()\n    window.show()\n    sys.exit(app.exec())",
+        "Connect": "Connect user actions to python functions. \n button.clicked.connect(my_function)"
+        
+    },
+    "Java": {
+        "Main Method": "The mandatory entry point for any Java program. \n public static void main(String[] args) {\n }",
+        "Printing": "Outputs text directly to the console terminal. \n System.out.println(\"Hello World\");",
+        "Variables": "Strictly typed syntax requires declaring the type before the name. \n int number = 10; \n String text = \"Hello\";",
+        "Conditionals": "Standard logic branching using standard parentheses and brackets. \n if (x > 0) {\n   // code\n } else {\n   // code\n }",
+        "Substring": "String substring(int from, int to) returns the substring beginning at index from and ending at index to -1\n\n\"caden\".substring(2,3) returns \"d\"",
+        "compareTo": "int compareTo(String other) returns a value <0 if this is less than other; returns zero if this is equal to other; returns a value >0 if this is greater than other. Strings are ordered based upon the alphabet\n\n\"apple\".compareTo(\"banana\") returns NEGATIVE"
     }
 }
