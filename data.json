@@ -1,0 +1,9 @@
+{
+    "Programming Python": {
+        "Looping Structure": "for item in list:\n    print(item)",
+        "List Comprehension": "[x for x in items if x > 0]"
+    },
+    "Web Development": {
+        "Fetch API": "fetch(url)\n  .then(res => res.json())\n  .then(data => console.log(data));"
+    }
+}
